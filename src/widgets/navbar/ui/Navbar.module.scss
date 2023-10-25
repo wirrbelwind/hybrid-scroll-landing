@@ -1,0 +1,23 @@
+.wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+}
+.navList {	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+}
+.navItem {
+	flex: 1;
+}
+.link {
+	text-decoration: none;
+		display: block;
+		text-align: center;
+		font-size: 1.5rem;
+		color: black;display: block;
+}

@@ -1,0 +1,25 @@
+.wrapper {
+  position: relative;
+  overflow-x: hidden;
+}
+.about {
+  min-height: 200vh;
+  background: #9cdb9d;
+}
+.team {
+  min-height: 100vh;
+  background: #eb9b2c;
+}
+
+.contact {
+  min-height: 100vh;
+  background: #eb9b2c;
+}
+
+.about,
+.contact,
+.team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

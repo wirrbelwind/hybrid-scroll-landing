@@ -1,0 +1,15 @@
+.projectsWrapper {
+  display: block;
+}
+.projects {
+  display: flex;
+  width: fit-content;
+}
+.projectItem {
+  min-height: 100vh;
+  width: 100vw;
+  background: #8bc8e9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
